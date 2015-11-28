@@ -19,6 +19,7 @@ Creation of password file:
 htpasswd -c gitusers.passwd user1
 ```
 ***Repos*** directory - your git repositories that will be used by apache. 
+
 ***172.17.42.1.conf*** - example of configuration file for apache.
 
 This container can be executed by: 
