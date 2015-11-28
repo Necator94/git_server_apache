@@ -16,8 +16,10 @@ Repos directory - your git repositories that will be used by apache.
 172.17.42.1.conf - example of configuration file for apache.
 
 This container can be executed by: 
+```
 docker run -d -p 443:443 -v /path_to_git_directory/git/:/mount necator94/git_serverapache
-
+```
 If you want to use your our configuration file for apache, container should be executed by:
-
+```
 docker run -d -p 443:443 -v /path_to_git_directory/git/:/mount -v /path_to_config/some.conf:/etc/apache2/sites-enabled/some.conf necator94/git_serverapache
+```
