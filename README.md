@@ -6,7 +6,8 @@ This is building of git server. Apache configured by adding of my_host.conf conf
 
 For using this container as a git server over https several configurations should be done:
 
-The folder ***git*** contains two directories: ***config*** and ***repos***. It can be cloned by runnung: https://github.com/Necator94/git_server_apache.git
+The folder ***git*** contains two directories: ***config*** and ***repos***. It can be cloned by runnung: 
+git clone https://github.com/Necator94/git_server_apache.git
 
 ***Config*** folder includes directories with ssl sertificats and password file. Ssl sertificats and password file should be modified for your private access.
 
